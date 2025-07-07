@@ -10,6 +10,15 @@ It loads a chest X-ray image, runs classification using a trained YOLOv8 model, 
 
 The script reads the image with OpenCV, processes it with the YOLOv8 model, extracts prediction probabilities, and returns the predicted class name based on the highest score.
 
+## Dataset
+
+The model was trained on a custom chest X-ray dataset containing three classes: Normal, Pneumonia, and COVID-19.
+You can access the dataset via Roboflow using the link below:
+
+🔗 https://app.roboflow.com/doruk-gunveren/xray-classification-4gdj4/1
+
+
+
 ## Dependencies
 
 This project requires the following Python packages. It is recommended to install them in a virtual environment using the `requirements.txt` file included in the repository.

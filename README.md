@@ -10,6 +10,23 @@ It loads a chest X-ray image, runs classification using a trained YOLOv8 model, 
 
 The script reads the image with OpenCV, processes it with the YOLOv8 model, extracts prediction probabilities, and returns the predicted class name based on the highest score.
 
+
+## Model and Training Results
+
+The trained model and evaluation outputs (confusion matrix and performance plots) can be accessed from the following Google Drive link:
+
+🔗 Trained Model and Results
+
+Contents of the folder:
+
+`weights/` – Trained YOLOv8n-cls model weights
+
+`results.png` – Training performance metrics over epochs
+
+`confusion_matrix.png` – Raw confusion matrix of the validation set
+
+`confusion_matrix_normalized.png` – Normalized confusion matrix
+
 ## Dataset
 
 The model was trained on a custom chest X-ray dataset containing three classes: Normal, Pneumonia, and COVID-19.

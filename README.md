@@ -15,7 +15,7 @@ The script reads the image with OpenCV, processes it with the YOLOv8 model, extr
 
 The trained model and evaluation outputs (confusion matrix and performance plots) can be accessed from the following Google Drive link:
 
-🔗 Trained Model and Results
+🔗 https://drive.google.com/drive/folders/1xONOT5cgvm_EcTJCqRPVdng0At0MpYHb
 
 Contents of the folder:
 
